@@ -34,7 +34,7 @@ Para utilizar o sistema de xadrez, siga estas etapas:
 
 Clone o repositório do projeto em sua máquina local usando o Git.
 
-Abra o projeto no IntelliJ IDEA ou em sua IDE Java preferida.
+Abra o projeto no Eclipse IDE ou em sua IDE Java preferida.
 
 Compile e execute o projeto.
 
@@ -44,3 +44,46 @@ Siga as instruções na interface de linha de comando para inserir seus moviment
 Contribuições para o projeto são bem-vindas. Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request no repositório do projeto. Suas contribuições podem ajudar a aprimorar a funcionalidade e a qualidade do sistema de xadrez.
 
 ---------------------------------------------------------
+
+# Chess System in Java
+
+This is a Java project that implements a chess system, allowing players to play a game of chess through the command-line interface. 
+The project is developed using principles of object-oriented programming and includes features such as move validation, piece capture, checkmate detection, and more.
+
+# Tools Used:
+The following tools were used in the development of this project:
+
+Java: The project is written in the Java programming language, which provides the foundation for the logic and functionality of the chess game.
+
+Git: Version control system used to manage the project's source code and track changes over time. The project repository is hosted on GitHub.
+
+Eclipse IDE: Integrated Development Environment (IDE) used to code, debug, and test the project. It provides a user-friendly interface and powerful tools for Java development.
+
+JUnit: Testing framework used to create and run unit tests for the chess system. It helps ensure the correctness of implemented functionalities and facilitates maintenance and future improvements.
+
+# Features:
+The chess system project offers the following features:
+
+Board representation: The chessboard is represented using a two-dimensional array, allowing for easy manipulation and access to individual squares.
+
+Piece movement: Players can move their pieces according to the rules of chess. The system validates each move, checking its legality and capturing opponent's pieces, when applicable.
+
+Checkmate detection: The system detects when a player's king is in checkmate, indicating the end of the game.
+
+Special moves: The project implements special moves such as castling and en passant, enhancing the gaming experience.
+
+Command-line interface: The game is played through the command-line interface, where players input their moves and receive feedback on the current state of the game.
+
+# How to Use:
+To use the chess system, follow these steps:
+
+Clone the project repository to your local machine using Git.
+
+Open the project in Eclipse IDE or your preferred Java IDE.
+
+Compile and run the project.
+
+Follow the instructions in the command-line interface to input your moves and play the game.
+
+# Contribution:
+Contributions to the project are welcome. If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request in the project repository. Your contributions can help enhance the functionality and quality of the chess system.
